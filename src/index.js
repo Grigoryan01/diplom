@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import PrivacyPolicyPage from './dashboard/terms/privacy.tsx';
+import SignIn from './components/sign-in/signin.tsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PrivacyPolicyPage />
+    <SignIn />
   </React.StrictMode>
 );
 
